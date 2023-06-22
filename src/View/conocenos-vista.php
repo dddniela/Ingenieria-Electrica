@@ -41,14 +41,14 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
-            <p style="text-align: justify;"> La carrera de Ingeniería Mecatrónica pertenece al
-              departamento de Metal - Mecánica, el objetivo principal del
-              departamento es poner al alcance de los estudiantes diferentes
-              laboratorios de cómputo para el desarrollo de sus materias
-              prácticas y la orientación en los diversos trámites requeridos a
-              lo largo de su plan de estudios, como pueden ser la liberación de
-              créditos complementarios, servicio social, residencias
-              profesionales.
+            <p style="text-align: justify;"> El Departamento de Ingeniería Electrica - Electronica cuenta con diversos laboratorios 
+              que son espacios esenciales para el aprendizaje práctico de los estudiantes, donde 
+              pueden aplicar sus conocimientos teóricos, desarrollar habilidades técnicas y experimentar 
+              con tecnologías avanzadas en las carreras de Ingeniería Electrica y Electronica. <br /><br />
+              
+              Los laboratorios brindan la oportunidad de aplicar sus conocimientos teóricos, 
+              desarrollar habilidades técnicas y experimentar con tecnologías avanzadas 
+              en el campo de la electrónica.
             </p>
           </div>
         </div>
