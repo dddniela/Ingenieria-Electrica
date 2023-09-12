@@ -11,7 +11,7 @@ $urlControl = array(
 $_SERVER['SERVER_NAME']."/Electrica/",
 $_SERVER['SERVER_NAME']."/Electrica/?option=0");
 
-$carreraID = 9;
+$programaId = 9;
 $conn = new Conexion();
 $conn->connect();
 $docente = new Docente();
