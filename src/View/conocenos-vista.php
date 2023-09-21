@@ -168,7 +168,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             </h2>
             <div class="separadorSeccionOscura"></div>
             <h4 class="text-center text-light fw-bold fs-3">
-              Laboratorios de cómputo
+              Laboratorios
             </h4>
           </div>
           <div class="col-12">
@@ -178,17 +178,14 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             </h6>
 
             <p class="text-light" style="text-align: justify">
-              El departamento de sistemas y computación cuenta con diversos
-              laboratorios de equipo de cómputo en dónde los estudiantes podrán
-              desempañarse en desarrollar diversos programas, aplicaciones y
-              proyectos a lo largo de sus clases prácticas en la carrera de
-              ingeniería en sistemas computacionales. <br /><br />
-              Los laboratorios de cómputo están orientados a servir como
-              herramientas de aprendizaje y apoyo didáctico tanto para los
-              docentes como los alumnos.
+              El Departamento de Eléctrica-Electrónica tiene espacios especialmente diseñados 
+              y equipados para llevar a cabo investigaciones, experimentos, pruebas y desarrollo 
+              de proyectos relacionados con la electrónica. Estos laboratorios son fundamentales 
+              para la formación académica de estudiantes de ingeniería electrónica y para la 
+              investigación en este campo.  <br /><br />
             </p>
             <div class="justify-content-center text-center">
-              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://bit.ly/3ZrhDeQ">
+              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://acortar.link/PLeZTR">
                   Reglamento de Laboratorio</a></p>
             </div>
           </div>
@@ -197,26 +194,26 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
     </div>
 
     <div class="col-lg-6 col-12 p-2 d-flex justify-content-center align-items-center">
-      <!-- Galería con modal para laboratorios de cómputo -->
+      <!-- Galería con modal para laboratorios -->
       <div class="contenedor-galeria bg-dark">
         <div class="row">
           <div class="col-lg-6">
-            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1">
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3878.webp" alt="" />
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1"> <!--arriba a la izquierda-->
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorio/PLC.jpg" alt="" />
             </a>
-            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2">
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_1110.webp" alt="" />
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2"> <!--abajo a la izquierda-->
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorio/lab2.JPG" alt="" />
             </a>
           </div>
 
           <div class="col-lg-6">
-            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3">
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3879.webp" alt="" />
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3">  <!--arriba a la derecha-->
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorio/lab.jpg" alt="" />
             </a>
-            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_0959.webp" alt="" />
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">  <!--abajo a la derecha-->
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorio/compus.jpg" alt="" /> 
             </a>
-          </div>
+          </div>  
         </div>
       </div>
       <!-- Fin Galería con modal para laboratorios de cómputo -->
@@ -230,7 +227,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage1">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_3878.webp" alt="" />
+      <img src="img/laboratorio/PLC.jpg" alt="" />
     </div>
   </div>
 </div>
@@ -239,7 +236,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage2">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_1110.webp" alt="" />
+      <img src="img/laboratorio/lab2.JPG" alt="" />
     </div>
   </div>
 </div>
@@ -248,7 +245,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage3">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_3879.webp" alt="" />
+      <img src="img/laboratorio/lab.jpg" alt="" />
     </div>
   </div>
 </div>
@@ -257,77 +254,188 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage4">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_0959.webp" alt="" />
+      <img src="img/laboratorio/compus.jpg" alt="" />
     </div>
   </div>
 </div>
 <!-- Fin Modals de la galería-->
 
-<!-- Laboratorio de cómputo intensivo -->
+<!-- Galeria de imagenes -->
 <div class="bg-primary pt-5"></div>
-<section class="seccionInstalaciones bg-dark p-2">
-  <div class="row px-2 g-0">
-    <div class="col-lg-6 col-12 p-2 shadow-sm">
-      <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img src="img/IMG_1713.webp" class="img-fluid rounded" alt="" />
-      </div>
-    </div>
-
-    <div class="col-lg-6 col-12 p-4">
-      <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <div class="row g-0">
-          <div class="col-12">
-            <h2 class="tituloSeccionOscura text-center font-bold m-3">
-              Laboratorio de Cómputo Intensivo
-            </h2>
-            <div class="separadorSeccionOscura"></div>
-            <h4 class="text-center text-light fw-bold fs-3">
-              Responsable: Abelardo Rodríguez León
-            </h4>
-          </div>
-          <div class="col-12">
-            <p class="text-light" style="text-align: justify">
-              Adicionalmente a las oficinas administrativas y laboratorios de
-              cómputo, la carrera de ingeniería en sistemas computacionales
-              cuenta con el apoyo de un laboratorio de servidores en dónde el
-              alumnado tendrá la oportunidad de interactuar con clústeres con
-              diferentes enfoques tecnológicos.
-            </p>
-          </div>
-          <div class="col-12">
-            <div class="bg-dark">
-              <ul class="m-3 text-warning font-bold" style="text-align: justify">
-                <li>Agave: Clúster de alto procesamiento.</li>
-                <li>Peyote: Clúster de visualización en 4K.</li>
-                <li>Saguar: Clúster de servicios de virtualización.</li>
-                <li>Nopal: Clúster de alto rendimiento.</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-12">
-            <p class="text-light" style="text-align: justify">
-              El Dr. Abelardo Rodríguez León (responsable del laboratorio de
-              servidores) pone a disposición el equipo a aquellos alumnos que
-              deseen realizar proyectos, experimentos, investigaciones, realizar
-              servicio social o residencias profesionales dentro del
-              laboratorio.
-
-              <br />
-              <br />
-              Información de contacto: abelardo.rl@veracruz.tecnm.mx
-            </p>
-          </div>
+<section class="lightSection bg-light p-2 px-4">
+    <div class="row mb-4 px-2 g-0">
+        <div class="lightSection bg-light">
+            <h2 class="sectionTitle text-center font-bold">Galería de imágenes</h2>
+            <div class="sectionSeparator"></div>
         </div>
-      </div>
+
+        <div class="col-lg-8 col-sm-12">
+            <div class="galleryContainer bg-light">
+                <div class="row g-0">
+                    <div class="col-md-4 px-2">
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/conocenos/5.JPG" alt="">
+                        </a>
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/conocenos/6.JPG" alt="">
+                        </a>
+                      <!--  <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/conocenos/3.JPG" alt="">
+                        </a> -->
+                    </div>
+
+                    <div class="col-md-4 px-2">
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage7">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/conocenos/7.JPG" alt="">
+                        </a>
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage8">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/conocenos/8.JPG" alt="">
+                        </a>
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage9">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/conocenos/9.JPG" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 px-2">
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage10">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/conocenos/10.JPG" alt="">
+                        </a>
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage11">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/conocenos/11.JPG" alt="">
+                        </a>
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage12">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/conocenos/12.JPG" alt="">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-12">
+            <div class="galleryContainer bg-light">
+                <div class="row g-0">
+                    <div class="col-12 px-2">
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage13">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/conocenos/13.JPG" alt="">
+                        </a>
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage14">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/conocenos/14.JPG" alt="">
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
     </div>
-  </div>
 </section>
+<!-- Fin Galeria de imagenes -->
+
+
+<!-- Modals de la galería-->
+<div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage5">
+    <div class="modal-dialog modal-sm modal-dialog-centered">
+        <div class="modal-content bg-transparent text-white text-center">
+            <img src="img/conocenos/5.JPG" alt="">
+        </div>
+    </div>
+</div>
+
+<div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage6">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-transparent text-white text-center">
+            <img src="img/conocenos/6.JPG" alt="">
+        </div>
+    </div>
+</div>
+
+<!--<div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage3">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-transparent text-white text-center">
+            <img src="img/conocenos/1.JPG" alt="">
+            <p>Vista desde el sombreadero</p>
+        </div>
+    </div>
+</div>-->
+
+<div tabindex="-1" aria-labelledby="modalImage7" aria-hidden="true" class="modal fade" id="modalImage7">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-transparent text-white text-center">
+            <img src="img/conocenos/7.JPG" alt="">
+        </div>
+    </div>
+</div>
+
+<div tabindex="-1" aria-labelledby="modalImage8" aria-hidden="true" class="modal fade" id="modalImage8">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-transparent text-white text-center">
+            <img src="img/conocenos/8.JPG" alt="">
+        </div>
+    </div>
+</div>
+
+<div tabindex="-1" aria-labelledby="modalImage9" aria-hidden="true" class="modal fade" id="modalImage9">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-transparent text-white text-center">
+            <img src="img/conocenos/9.JPG" alt="">
+        </div>
+    </div>
+</div>
+
+<div tabindex="-1" aria-labelledby="modalImage10" aria-hidden="true" class="modal fade" id="modalImage10">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-transparent text-white text-center">
+            <img src="img/conocenos/10.JPG" alt="">
+        </div>
+    </div>
+</div>
+
+<div tabindex="-1" aria-labelledby="modalImage11" aria-hidden="true" class="modal fade" id="modalImage11">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-transparent text-white text-center">
+            <img src="img/conocenos/11.JPG" alt="">
+        </div>
+    </div>
+</div>
+
+<div tabindex="-1" aria-labelledby="modalImage12" aria-hidden="true" class="modal fade" id="modalImage12">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-transparent text-white text-center">
+            <img src="img/conocenos/12.JPG" alt="">
+        </div>
+    </div>
+</div>
+
+<div tabindex="-1" aria-labelledby="modalImage13" aria-hidden="true" class="modal fade" id="modalImage13">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-transparent text-white text-center">
+            <img src="img/conocenos/13.JPG" alt="">
+        </div>
+    </div>
+</div>
+
+<div tabindex="-1" aria-labelledby="modalImage14" aria-hidden="true" class="modal fade" id="modalImage14">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-transparent text-white text-center">
+            <img src="img/conocenos/14.JPG" alt="">           
+        </div>
+    </div>
+</div>
+
+<!-- Fin Modals de la galería-->
+
 
 <div class="bg-primary pt-5"></div>
 <div class="p-4 text-center">
   <h5 class="font-bold">Autores de la página:</h5>
   <p class="font-semibold">Estudiantes de la Generación 2018 - 2023</p>
-  <p>Daniela Castro Rodriguez, Nancy Daniela Mendez Arpidez, Marco Gabriel Cortés Toledo,
-    Yelitza Magali Rosas Jiménez, Eric Manuel Montalvo Cruz y Gabriel Escobar Medina</p>
+  <p>Yelitza Magali Rosas Jiménez, Daniela Castro Rodriguez, Nancy Daniela Mendez Arpidez, Marco Gabriel Cortés Toledo,
+     y Gabriel Escobar Medina</p>
 </div>
-<!-- Fin Laboratorio de cómputo intensivo -->
+
+<div class="p-1 text-center">
+  <p class="font-semibold">Agradecimientos</p>
+  <p>Eric Manuel Montalvo Cruz, Ivan Agame Malpica y Fernando Martinez</p>
+</div>
