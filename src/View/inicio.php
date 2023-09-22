@@ -25,8 +25,8 @@
         <img src="img/carrusel2.jpg" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
-            <h1 class="mainTitle text-center font-bold m-2 text-stroke">Ingeniería Eléctrica</h1>
-            <h2 class="mainSubtitle text-center font-bold text-stroke">Aprende nuevas tecnologías</h1>
+            <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Eléctrica</h1>
+            <h2 class="mainSubtitle text-center font-bold shadow-text"></h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=1">Explorar</a></p>
           </div>
         </div>
@@ -36,8 +36,8 @@
         <img src="img/carrusel3.jpg" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
-            <h1 class="mainTitle text-center font-bold m-2 text-stroke">Ingeniería Eléctrica</h1>
-            <h2 class="mainSubtitle text-center font-bold d-none d-md-inline-flex text-stroke">Colabora con la comunidad</h1>
+            <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Eléctrica</h1>
+            <h2 class="mainSubtitle text-center font-bold d-none d-md-inline-flex shadow-text">Aprende nuevas tecnologías</h1>
             <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=5">Explorar</a></p>
           </div>
         </div>
@@ -61,7 +61,7 @@
   <div class="row px-2 g-0">
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/Electronica/alumnos.jpg" alt="">
+        <img class="img-fluid rounded" src="img/porqueEstudiar.JPG" alt="">
       </div>
     </div>
 
@@ -200,7 +200,7 @@
 
     <div class="col-lg-6 col-12 p-4 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/Electronica/instalaciones2.jpg" alt="">
+        <img class="img-fluid rounded" src="img/insta.JPG" alt="">
       </div>
     </div>
 

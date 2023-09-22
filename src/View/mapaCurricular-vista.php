@@ -1,6 +1,6 @@
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
-        <img class="w-100 img-fluid" src="img/PMapaCurri.jpg" alt="">
+        <img class="w-100 img-fluid" src="img/mapCurri.JPG" alt="">
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 class="fw-bold text-warning shadow-text">Mapa Curricular</h1>
@@ -614,7 +614,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/IBQ-IQ/IQ20.png" alt="">
+                    <img class="img-fluid rounded" src="img/IMG_3886.webp" alt="">
                 </div>
             </div>
 
@@ -625,7 +625,7 @@
 
 <!-- Titulación -->
 <div class="bg-primary pt-5">
-    <img src="img/IBQ-IQ/P48.png" class="w-full" alt="">
+    <img src="img/ITVER-7.webp" class="w-full" alt="">
     <section class="darkSection bg-dark">
         <div class="row px-2 g-0">
             <div class="col-lg-12 col-12 py-4">

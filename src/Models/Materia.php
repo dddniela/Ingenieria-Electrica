@@ -31,20 +31,20 @@ class Materia
             case 'Asignaturas Comunes':
                 $ruta_img = 'img/iconos/asignaturas-comunes.PNG';
                 break;
-            case 'Redes':
-                $ruta_img = 'img/iconos/redes.PNG';
+            case 'Instrumentacion':
+                $ruta_img = 'img/iconos/instrumentacion.png';
                 break;
-            case 'Bases de datos':
-                $ruta_img = 'img/iconos/bases-datos.PNG';
+            case 'Electromagnetismo':
+                $ruta_img = 'img/iconos/electromagnetismo.png';
                 break;
             case 'Electronica':
-                $ruta_img = 'img/iconos/electronica.PNG';
+                $ruta_img = 'img/iconos/electronica.png';
                 break;
             case 'Ingenieria':
                 $ruta_img = 'img/iconos/ingenieria.PNG';
                 break;
-            case 'Sistemas operativos':
-                $ruta_img = 'img/iconos/sistemasop.PNG';
+            case 'Circuito Electrico':
+                $ruta_img = 'img/iconos/circuitoElectrico.png';
                 break;
             case 'Calculo':
                 $ruta_img = 'img/iconos/calculo.PNG';
@@ -52,23 +52,71 @@ class Materia
             case 'Estadistica':
                 $ruta_img = 'img/iconos/estadistica.PNG';
                 break;
-            case 'Automatas':
-                $ruta_img = 'img/iconos/automatas.PNG';
+            case 'Red':
+                $ruta_img = 'img/iconos/red.png';
                 break;
             case 'Investigacion':
                 $ruta_img = 'img/iconos/investigacion.PNG';
                 break;
-            case 'Matematicas Aplicada':
-                $ruta_img = 'img/iconos/algebra.PNG';
+            case 'Energia':
+                $ruta_img = 'img/iconos/energia.png';
                 break;
-            case 'Web':
-                $ruta_img = 'img/iconos/programacion-web.PNG';
+            case 'Maquinas':
+                $ruta_img = 'img/iconos/maquinas.png';
                 break;
             case 'Administracion':
                 $ruta_img = 'img/iconos/administracion.PNG';
                 break;
-            case 'IA':
-                $ruta_img = 'img/iconos/inteligencia-artificial.PNG';
+            case 'Quimica':
+                $ruta_img = 'img/iconos/quimica.png';
+                break;
+            case 'Materiales':
+                $ruta_img = 'img/iconos/materiales.png';
+                break;
+            case 'Instalaciones':
+                $ruta_img = 'img/iconos/instalaciones.png';
+                break;
+            case 'Sistemas Integrados':
+                $ruta_img = 'img/iconos/sistemasIntegrados.png';
+                break;
+            case 'Control':
+                $ruta_img = 'img/iconos/control.png';
+                break;
+            case 'Etica':
+                $ruta_img = 'img/iconos/etica.png';
+                break;
+            case 'Dibujo':
+                $ruta_img = 'img/iconos/dibujo.png';
+                break;
+            case 'Fisica':
+                $ruta_img = 'img/iconos/fisica.png';
+                break;
+            case 'Electro Analogica':
+                $ruta_img = 'img/iconos/electroAnalogica.png';
+                break;
+            case 'Sustentable':
+                $ruta_img = 'img/iconos/sustentable.png';
+                break;
+            case 'Transformadores':
+                $ruta_img = 'img/iconos/transformadores.png';
+                break;
+            case 'Mecanica':
+                $ruta_img = 'img/iconos/mecanica.png';
+                break;
+            case 'Microcontroladores':
+                $ruta_img = 'img/iconos/microcontroladores.png';
+                break;
+            case 'Diodos':
+                $ruta_img = 'img/iconos/diodos.png';
+                break;
+            case 'PLC':
+                $ruta_img = 'img/iconos/plc.png';
+                break;
+            case 'Proyectos':
+                $ruta_img = 'img/iconos/proyectos.png';
+                break;
+            case 'Comunicaciones':
+                $ruta_img = 'img/iconos/comunicaciones.png';
                 break;
             default:
                 $ruta_img = 'img/extraescolares/circuloDeLectura.PNG';
