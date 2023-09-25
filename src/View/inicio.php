@@ -99,7 +99,7 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3.php">
-          <img class="areaImage items-center" src="img/icoElectro/ico1.PNG" alt="">
+          <img class="areaImage items-center" src="img/icoElectro/ico1.png" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Fundamentos de Ingeniería Eléctrica</h3>
         <p class="areaText">Principios y teorías fundamentales de la ingeniería eléctrica, incluyendo 
@@ -110,7 +110,7 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/icoElectro/ico2.PNG" alt="">
+          <img class="areaImage items-center" src="img/icoElectro/ico2.png" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Electrónica</h3>
         <p class="areaText">Se enfoca en el diseño y la aplicación de dispositivos electrónicos. Se aprenden sobre componentes electrónicos, 
@@ -121,7 +121,7 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3.php">
-          <img class="areaImage items-center" src="img/icoElectro/ico3.PNG" alt="">
+          <img class="areaImage items-center" src="img/icoElectro/ico3.png" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Sistemas de Energía Eléctrica</h3>
         <p class="areaText">
@@ -134,7 +134,7 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/icoElectro/ico4.PNG" alt="">
+          <img class="areaImage items-center" src="img/icoElectro/ico4.png" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Control y Automatización</h3>
         <p class="areaText">Trabajo con sistemas de control y automatización para regular y optimizar 
@@ -145,7 +145,7 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/icoElectro/ico5.PNG" alt="">
+          <img class="areaImage items-center" src="img/icoElectro/ico5.png" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Máquinas Eléctricas</h3>
         <p class="areaText">Conocimientos sobre los principios de funcionamiento y diseño de máquinas eléctricas,
@@ -156,7 +156,7 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/icoElectro/ico6.PNG" alt="">
+          <img class="areaImage items-center" src="img/icoElectro/ico6.png" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Electrónica de Potencia</h3>
         <p class="areaText">

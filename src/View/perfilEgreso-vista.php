@@ -226,7 +226,7 @@
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/galeria5.jpg" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/perfilEgreso/InteriorEdificioT2.jpg" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/perfilEgreso/interiorEdificioT2.jpg" alt="">
                         </a>
                     </div>
 
@@ -317,7 +317,7 @@
 <div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage6">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/perfilEgreso/InteriorEdificioT2.jpg" alt="">
+            <img src="img/perfilEgreso/interiorEdificioT2.jpg" alt="">
             <p>Interior del edificio T (Planta Baja)</p>
         </div>
     </div>

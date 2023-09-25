@@ -199,7 +199,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
         <div class="row">
           <div class="col-lg-6">
             <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1"> <!--arriba a la izquierda-->
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorio/PLC.jpg" alt="" />
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorio/PLC.JPG" alt="" />
             </a>
             <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2"> <!--abajo a la izquierda-->
               <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorio/lab2.JPG" alt="" />
@@ -208,10 +208,10 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 
           <div class="col-lg-6">
             <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3">  <!--arriba a la derecha-->
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorio/lab.jpg" alt="" />
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorio/lab.JPG" alt="" />
             </a>
             <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">  <!--abajo a la derecha-->
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorio/compus.jpg" alt="" /> 
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorio/compus.JPG" alt="" /> 
             </a>
           </div>  
         </div>
@@ -227,7 +227,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage1">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/laboratorio/PLC.jpg" alt="" />
+      <img src="img/laboratorio/PLC.JPG" alt="" />
     </div>
   </div>
 </div>
@@ -245,7 +245,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage3">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/laboratorio/lab.jpg" alt="" />
+      <img src="img/laboratorio/lab.JPG" alt="" />
     </div>
   </div>
 </div>
@@ -254,7 +254,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage4">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/laboratorio/compus.jpg" alt="" />
+      <img src="img/laboratorio/compus.JPG" alt="" />
     </div>
   </div>
 </div>
@@ -425,17 +425,3 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 </div>
 
 <!-- Fin Modals de la galería-->
-
-
-<div class="bg-primary pt-5"></div>
-<div class="p-4 text-center">
-  <h5 class="font-bold">Autores de la página:</h5>
-  <p class="font-semibold">Estudiantes de la Generación 2018 - 2023</p>
-  <p>Yelitza Magali Rosas Jiménez, Daniela Castro Rodriguez, Nancy Daniela Mendez Arpidez, Marco Gabriel Cortés Toledo,
-     y Gabriel Escobar Medina</p>
-</div>
-
-<div class="p-1 text-center">
-  <p class="font-semibold">Agradecimientos</p>
-  <p>Eric Manuel Montalvo Cruz, Ivan Agame Malpica y Fernando Martinez</p>
-</div>
