@@ -318,8 +318,8 @@
                             <div class="sectionSeparator"></div>
                         </div>
                         <div class="col-12" style="text-align: center;">
-                            <p style="text-align: justify;"> El plan de estudios de la carrera de ingeniería en sistemas
-                                computacionales ofrece
+                            <p style="text-align: justify;"> El plan de estudios de la carrera de ingeniería en Eléctrica
+                                ofrece
                                 un desarrollo integral y profesional con el objetivo de que el estudiante se pueda
                                 desenvolver en diferentes áreas
                                 de la tecnología, ofreciendo soluciones óptimas e innovadoras.
@@ -471,7 +471,7 @@
 
             <div class="col-lg-4 col-sm-6 text-center p-3">
                 <div class="area shadow-sm p-4">
-                    <img class="areaImage items-center" src="img/icon1.png" alt="">
+                    <img class="areaImage items-center" src="img/icon1.PNG" alt="">
                     <h3 class="areaTitle text-center font-bold text-xl">Proyectos</h3>
                     <p class="areaText">Contribuir a la formación integral del alumno a través de la interrelación de
                         conocimientos teóricos y aspectos prácticos de la profesión.</p>

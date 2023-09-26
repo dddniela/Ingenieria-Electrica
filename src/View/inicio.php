@@ -269,7 +269,7 @@
 
   <div class="row g-0 justify-content-center">
 
-    <div class="col-5 text-center p-5">
+  <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4 rounded-3">
         <a href="http://gestion.itver.edu.mx/servicio-social/" target="_blank" >
           <img class="img-fluid w-100 shadow-1-strong rounded mb-4 p-1" src="img/gestionVinculacion.jpg" alt="">
@@ -278,7 +278,7 @@
       </div>
     </div>
 
-    <div class="col-5 text-center p-5">
+    <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4 rounded-3">
         <a href="http://www.veracruz.tecnm.mx/" target="_blank" >
           <img class="img-fluid w-100 shadow-1-strong rounded mb-4  p-1" src="img/ITVER-10.webp" alt="">
@@ -300,7 +300,7 @@
 
   </div>
 </section>
-<Fin Enlaces
+<!--<Fin Enlaces-->
 
 <!-- Área de redes sociales -->
 <section class="lightSection p-2 g-0">
