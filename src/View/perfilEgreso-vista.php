@@ -1,3 +1,11 @@
+<?php
+require_once("src/Models/Seccion.php");
+$seccion = new Seccion();
+$seccion->setConnection($conn->getDB());
+
+$objetivo = $seccion->getObjetivo();
+$objetivo = $objetivo['data'];
+?>
 <!-- Portada -->
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
@@ -45,11 +53,12 @@
                         <div class="sectionSeparator"></div>
                     </div>
                     <div class="col-12" style="text-align: center;">
-                        <p style="text-align: justify;"> Formar profesionales competentes en Ingeniería Eléctrica con capacidad creativa, emprendedora, 
-                        analítica, de liderazgo y trabajo en equipo, que realicen actividades de diseño, innovación, adaptación y 
-                        transferencia de tecnologías para resolver problemas de su área, atendiendo las necesidades del entorno 
-                        globalizado, con una conciencia ética y social, asumiendo un compromiso con el desarrollo tecnológico 
-                        y sustentable. 
+                        <p style="text-align: justify;">
+                            <?php
+                            if ($objetivo) {
+                                echo $objetivo['descripcion'];
+                            }
+                            ?>
                         </p>
                     </div>
                 </div>
@@ -70,122 +79,9 @@
                 <div class="sectionSeparator"></div>
 
                 <div class="row g-0">
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/icoElectro/objEdu-1.png" alt="">
-                            <p class="textoArea"> Planea, diseña, instala y opera sistemas eléctricos, conforme a la normatividad para el desarrollo de 
-                                proyectos eléctricos eficientes y sustentables. 
- </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/icoElectro/objEdu-2.png" alt="">
-                            <p class="textoArea"> Planea, diseña, instala y opera sistemas de control y automatización, utilizando tecnología de punta, 
-                            para el desarrollo de proyectos eléctricos. </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/icoElectro/objEdu-3.png" alt="">
-                            <p class="textoArea">  Participa en la administración y toma de decisiones de los recursos humanos, económicos y 
-                                materiales para la realización de proyectos y obras eléctrica</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/icoElectro/objEdu-4.png" alt="">
-                            <p class="textoArea"> Promueve y aplica las acciones necesarias relacionadas con el desarrollo sustentable de manera 
-                                responsable, legal y ética, para la preservación del medio ambiente.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/icoElectro/objEdu-5.png" alt="">
-                            <p class="textoArea">Promueve y realiza proyectos de investigación y desarrollo tecnológico para contribuir al progreso 
-                                regional y nacional.  </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/icoElectro/objEdu-6.png" alt="">
-                            <p class="textoArea"> Incorpora nuevas tecnologías para la mejora de los procesos industriales, equipos y obras eléctricas. </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/icoElectro/objEdu-7.png" alt="">
-                            <p class="textoArea">Analiza y realiza mantenimiento de equipos e instalaciones eléctricas para que las condiciones de 
-                                operación sean seguras, eficientes y económicas. </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/icoElectro/objEdu-8.png" alt="">
-                            <p class="textoArea">Utiliza las nuevas tecnologías de la información y comunicación para contribuir a la productividad 
-                                y el logro de objetivos estratégicos de las organizaciones.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/icoElectro/objEdu-9.png" alt="">
-                            <p class="textoArea">  Desarrolla una visión emprendedora realizando actividades profesionales para que establezca su 
-                                    propia empresa y contribuya al desarrollo de su entorno. 
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/icoElectro/objEdu-10.png" alt="">
-                            <p class="textoArea">  Participa en equipos interdisciplinarios y multidisciplinarios para el desarrollo de proyectos 
-                                        integrales. 
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/icoElectro/objEdu-11.png" alt="">
-                            <p class="textoArea">  Aplica la comunicación oral y escrita para elaborar reportes, informes técnicos y proyectos de 
-                                        investigación, con apoyo de medios gráficos y/o audiovisuales. 
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/icoElectro/objEdu-12.png" alt="">
-                            <p class="textoArea"> Participa en su entorno político, económico, social y cultural para el desarrollo de su comunidad.  
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/icoElectro/objEdu-13.png" alt="">
-                            <p class="textoArea">  Aplica sus habilidades de liderazgo para coadyuvar en su ámbito personal, social y laboral.  
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/icoElectro/objEdu-14.png" alt="">
-                            <p class="textoArea">  Crece personalmente en todas sus dimensiones, adquiriendo conciencia de su propia identidad, para 
-                                el logro de sus aspiraciones y desarrollo de sus potencialidades. 
-                            </p>
-                        </div>  
-                    </div>
-
+                    <?php
+                    echo $seccion->imprimirPerfilEgreso();
+                    ?>
                 </div>
             </section>
             <!-- Fin Puntos del perfil de egreso -->

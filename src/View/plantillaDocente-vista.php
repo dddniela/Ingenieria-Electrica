@@ -14,17 +14,18 @@
   </div>
 </div>
 
+
 <div class="container my-2">
   <div class="row justify-content-md-start justify-content-center">
     <?php
   
-            $inf = 1;
-            $sup = 12;
+    
+            $inf = 0;
             if(isset($_GET['inferior'])){
                 $inf = $_GET['inferior'];
-                $sup = $_GET['superior'];
             }
-            $datos = $docente->imprimirDatos($inf,$sup);
+            
+            $datos = $docente->imprimirDatos($inf);
             echo $datos;
         ?>
   </div>
