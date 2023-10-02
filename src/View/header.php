@@ -105,13 +105,6 @@
 
                 <img loading='lazy' height="40" title="Accesibilidad" src="img/encabezado/ojo-icono.png" alt="Débil Visual" />
 
-                <a class="btn--accesibilidad contraste" height="40">
-                    <svg class="svg-inline--fa fa-adjust fa-w-16" height="40" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="adjust" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
-                        <path fill="#1B396A" d="M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705 0 184 82.311 184 184 0 101.705-82.311 184-184 184z">
-                            <title>Contraste</title>
-                        </path>
-                    </svg>
-                </a>
                 <button class="btnCambioTexto" onclick="return cambiarTexto('+')">A+</button>
                 <button class="btnCambioTexto" onclick="return cambiarTexto('-')">A-</button>
                 <button class="btnCambioTexto" onclick="resetLetra()" title="Restablecer tamaño">A</button>
@@ -120,7 +113,7 @@
     </div>
 
     <!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="background-color: #1B396A;">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="background-color: #1B396A;;">
         <div class="container-fluid">
             <!-- Botón de navegación para pantallas SM y MD -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -151,7 +144,7 @@
                         <a class="nav-link active dropdown-toggle hover-blue" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Enlaces
                         </a>
-                        <ul class="dropdown-menu" style="background-color: #312e81;" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu" style="background-color: #1B396A;;" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item hover-blue" target="_blank" href="https://www.tecnm.mx/">TECNM</a></li>
                             <li><a class="dropdown-item hover-blue" target="_blank" href="http://www.veracruz.tecnm.mx/">ITVER</a></li>
                             <li><a class="dropdown-item hover-blue" target="_blank" href="https://sii.veracruz.tecnm.mx/">SII</a></li>
