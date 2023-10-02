@@ -12,6 +12,9 @@ $_SERVER['SERVER_NAME']."/Electrica/",
 $_SERVER['SERVER_NAME']."/Electrica/?option=0");
 
 $programaId = 9;
+$api = 'http://localhost:3010';
+$PATH_DOCENTE =  $GLOBALS['api'] . '/imagenes/Ing-Electrica/docentes/';
+
 $conn = new Conexion();
 $conn->connect();
 $docente = new Docente();
