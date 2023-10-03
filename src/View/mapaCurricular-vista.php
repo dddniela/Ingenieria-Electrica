@@ -66,10 +66,10 @@ $reticula = $seccion->imprimirBotonReticula();
                         aria-selected="false">8vo Semestre</button>
                 </li>
                 <li>
-                    <button class="dropdown-item" id="tab-semestre9-tab" data-bs-toggle="pill"
+                <!--    <button class="dropdown-item" id="tab-semestre9-tab" data-bs-toggle="pill"
                         data-bs-target="#tab-semestre9" type="button" aria-controls="tab-semestre9"
                         aria-selected="false">9no Semestre</button>
-                </li>
+                </li>-->
             </ul>
         </li>
     </ul>
@@ -107,10 +107,10 @@ $reticula = $seccion->imprimirBotonReticula();
             <button class="nav-link" id="tab-semestre8-tab" data-bs-toggle="pill" data-bs-target="#tab-semestre8"
                 type="button" role="tab" aria-controls="tab-semestre8" aria-selected="false">8vo Semestre</button>
         </li>
-        <li class="nav-item" role="presentation">
+    <!--    <li class="nav-item" role="presentation">
             <button class="nav-link" id="tab-semestre9-tab" data-bs-toggle="pill" data-bs-target="#tab-semestre9"
                 type="button" role="tab" aria-controls="tab-semestre9" aria-selected="false">9no Semestre</button>
-        </li>
+        </li>-->
     </ul>
     <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade show active" id="tab-semestre1" role="tabpanel" aria-labelledby="tab-semestre1-tab">
@@ -186,7 +186,7 @@ $reticula = $seccion->imprimirBotonReticula();
             </div>
 
         </div>
-        <div class="tab-pane fade" id="tab-semestre9" role="tabpanel" aria-labelledby="tab-semestre9-tab">
+       <div class="tab-pane fade" id="tab-semestre9" role="tabpanel" aria-labelledby="tab-semestre9-tab">
             <div class="container">
                 <?php
 
