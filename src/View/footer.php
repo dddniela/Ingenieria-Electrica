@@ -105,10 +105,6 @@
         const elementsH4List = document.getElementsByTagName('h4');
         const elementsH5List = document.getElementsByTagName('h5');
         const elementsH6List = document.getElementsByTagName('h6');
-        /* Función de alto contraste */
-        $(".contraste").on('click', function(event) {
-            $("body, .bg-light, .bg--patron-blanco, .bg--guinda, .bg--patron-guinda, .bg--gris, .bg--patron-gris, .bg--grisOscuro, .bg--grisMedio , .bg--patron-grisOscuro, .bg--grisAzulado, .oe-one-column, .oe-two-col, .dropdown-menu").toggleClass("bg-dark");
-        });
 
         function getElementFontSize(element){
         //getComputedStyle nos devuelve las propiedades css de cada párrafo(elemento)
