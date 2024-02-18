@@ -15,6 +15,7 @@ $programaId = 9;
 $api = 'http://localhost:3010';
 $PATH_DOCENTE =  $GLOBALS['api'] . '/imagenes/Ing-Electrica/docentes/';
 $PATH_COMUNIDAD =  $GLOBALS['api'] . '/imagenes/Ing-Electrica/comunidades/';
+$PATH_ICONO =  $GLOBALS['api'] . '/imagenes/Ing-Electrica/iconos/';
 
 $conn = new Conexion();
 $conn->connect();
